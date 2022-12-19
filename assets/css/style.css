@@ -1,42 +1,64 @@
-.demo {
-    height: 300px;
-    margin-bottom: 10px;
-    background-color: blue;
+body {
+    padding: 0;
+    margin: 0;
+    background: cadetblue;
 }
 
-.movieCard {
-    height: 600px;
+.container-fluid {
+    background-color: darkgray;
+}
+
+.card {
+    margin-bottom: 5px;
+}
+
+.countryCard {
+    height: 400px;
     margin: 0;
     overflow: hidden;
     position: relative;
 }
 
-.movieCard img {
+.countryCard img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    width: 20rem;
+    height: 12rem;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
-.movieCard figcaption {
+.countryCard figcaption {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
 }
 
-.overview {
-    position: absolute;
-    bottom: -120%;
-    left: 0;
-    right: 0;
-    background: #fff;
-    transition: all .3s;
+.country-Data {
+    margin: 0;
 }
 
-.movieCard:hover .overview {
-    bottom: 0;
+.header {
+    text-align: center;
 }
 
-header{
+h2 {
+    text-align: center;
+    color: rgb(255, 153, 0);
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+li {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+h1 {
     text-align: center;
 }
